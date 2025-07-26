@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/csrd-compliance-manager/', // 👈 required for GitHub Pages
+  base: '/csrd-compliance-manager/',
   plugins: [react()],
 });
